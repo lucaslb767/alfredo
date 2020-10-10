@@ -11,7 +11,7 @@ def inicio():
 
 def menu():
 
-    resposta = input('Escolha entre, feliz, assustado, triste, linguinha. \n Escreva "sair" para terminar')
+    resposta = input('Escolha entre, feliz, assustado, triste, linguinha, dormindo, sexy, dinheiro ou apaixonado. \n Escreva "sair" para terminar \n')
     return resposta.lower()
 
 if __name__ == '__main__':
@@ -29,6 +29,14 @@ if __name__ == '__main__':
         elif(opcao == 'linguinha'):
             print('VC ESCOLHEU O MAIS BRABO')
             Alfredo.linguinha()
+        elif(opcao == 'dormindo'):
+            Alfredo.dormindo()
+        elif(opcao == 'sexy'):
+            Alfredo.sexy()
+        elif(opcao == 'dinheiro'):
+            Alfredo.dinheiro()
+        elif(opcao == 'apaixonado'):
+            Alfredo.apaixonado()
 
         opcao = menu()
 
